@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\SuiviFitness.csproj": {}
+    "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\SuiviFitness.csproj": {
+    "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\SuiviFitness.csproj",
+        "projectUniqueName": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj",
         "projectName": "SuiviFitness",
-        "projectPath": "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\SuiviFitness.csproj",
+        "projectPath": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj",
         "packagesPath": "C:\\Users\\djeai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\obj\\",
+        "outputPath": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\djeai\\AppData\\Roaming\\NuGet\\NuGet.Config",
