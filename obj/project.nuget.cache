@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xYErJ1WyQDPa7U8MoUBomGNAWKDbJbBy8YIj4wTPWsa1m9+XOPiFjRIWUh6dn0LMQxV0Y9WO4EnRt+so4aWnuA==",
+  "dgSpecHash": "nqVCA9N6M9eBWg82xsUkBo2aBjZNIRWrBnQ84TPDPxDncD8/5U+kWNlYiGpojRQZS3E1iyWSDAw6hJceX2Onqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\djeai\\source\\repos\\SuiviFitness\\SuiviFitness.csproj",
+  "projectFilePath": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\djeai\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\djeai\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
