@@ -12,7 +12,8 @@
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    
                     <img src="images/logo.png" alt="" />
                     <span>
                         Energym
@@ -53,21 +54,28 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="d-flex  flex-column flex-lg-row align-items-center">
                             <ul class="navbar-nav  ">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                                <li class="nav-item ">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index"> Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about">About </a>
+                                <li class="nav-item ">
+                                    <a class="nav-link"  asp-controller="Entrainement" asp-action="Index"> Entrainement</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="service">Services </a>
+                           
+
+                                <li class="nav-item ">
+                                    <a class="nav-link" asp-controller="Nutrition" asp-action="Index"> Nutrition</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="contact">Contact Us</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Login</a>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">Se connecter</a>
                                 </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">S'inscrire</a>
+                                </li>
+
+
                             </ul>
                             <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
@@ -220,6 +228,24 @@
         </p>
     </section>
     <!-- footer section -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var navLinks = document.querySelectorAll(".nav-link");
+
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    // Supprimez la classe "active" de tous les éléments du menu
+                    navLinks.forEach(function (navLink) {
+                        navLink.parentElement.classList.remove("active");
+                    });
+
+                    // Ajoutez la classe "active" à l'élément du menu cliqué
+                    link.parentElement.classList.add("active");
+                });
+            });
+        });
+    </script>
+
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
