@@ -13,5 +13,8 @@ namespace SuiviFitness.Models
         public float? taille { get; set; }
         public Image? image { get; set; }
         public List<string>? objectifDeFitness { get; set; }
+        public string? description { get; set; }
+        public List<string>? preferenceAlimentaire { get; set; } // "Végétarien" ou "Carnivor" ou "Mixte"
+        public List<string>? niveauDeFitness { get; set; }
     }
 }
