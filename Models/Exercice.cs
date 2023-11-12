@@ -4,9 +4,15 @@ namespace SuiviFitness.Models
 {
     public class Exercice
     {
-        public string? nom { get; set; }
-        public string? description { get; set; }
-        public Image? image { get; set; }
-        public List<string>? categoriesExercices { get; set; } //"Entraînement en hypertrophie" ou "Entraînement en cardio" ou "Étirements"
+        public int IDExercice { get; set; }
+        public string NomExercice { get; set; }
+        public string Description { get; set; }
+        public string TypeExercice { get; set; }
+
+        // Autres attributs pertinents
+        // ...
+
+        // Relation avec les détails de la séance d'entraînement
+        public List<DetailSeance> DetailsSeanceEntrainement { get; set; }
     }
 }

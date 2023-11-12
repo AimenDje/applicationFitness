@@ -2,17 +2,15 @@
 
 namespace SuiviFitness.Models
 {
-    public class Seance
+    public class Progression
     {
-        public int IDSeance { get; set; }
+        public int IDProgression { get; set; }
         public int IDUtilisateur { get; set; }
-        public DateTime DateHeure { get; set; }
-        public string Description { get; set; }
+        public DateTime Date { get; set; }
+        public string TypeProgression { get; set; }
+        public string DetailsProgression { get; set; }
 
         // Relation avec l'utilisateur
         public Utilisateur Utilisateur { get; set; }
-
-
-
     }
 }
