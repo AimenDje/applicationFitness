@@ -1,9 +1,13 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SuiviFitness.Models
 {
     public class Progression
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDProgression { get; set; }
         public int IDUtilisateur { get; set; }
         public DateTime Date { get; set; }
@@ -11,6 +15,7 @@ namespace SuiviFitness.Models
         public string DetailsProgression { get; set; }
 
         // Relation avec l'utilisateur
+        [ForeignKey("IDUtilisateur")]
         public Utilisateur Utilisateur { get; set; }
     }
 }
