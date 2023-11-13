@@ -10,18 +10,18 @@ namespace SuiviFitness.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDUtilisateur { get; set; }
-        public string Nom { get; set; }
-        public string Prenom { get; set; }
-        public string AdresseEmail { get; set; }
-        public string MotDePasseHash { get; set; }
-        public string TypeUtilisateur { get; set; }
+        public string? nom { get; set; }
+        public string? prenom { get; set; }
+        public string? adresseEmail { get; set; }
+        public string? motDePasseHash { get; set; }
+        public string? typeUtilisateur { get; set; }
 
         // Propriétés spécifiques au type d'utilisateur (certifications pour les coachs, par exemple)
-        public string Certifications { get; set; }
+        public string? certifications { get; set; }
 
         // Relation avec les séances d'entraînement
         [ForeignKey("IDSeance")]
-        public List<Seance> SeancesEntrainement { get; set; }
+        public List<Seance> SeancesEntrainements { get; set; }
     }
 
 }

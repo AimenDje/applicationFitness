@@ -1,4 +1,4 @@
-namespace SuiviFitness.Models
+﻿namespace SuiviFitness.Models
 {
     public class ErrorViewModel
     {

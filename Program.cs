@@ -6,16 +6,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-var app = builder.Build();
 
-// Configuration de la cha�ne de connexion � partir de appsettings.json
+
+// Configuration de la chaine de connexion à partir de appsettings.json
 var configuration = new ConfigurationBuilder()
  .SetBasePath(Directory.GetCurrentDirectory())
  .AddJsonFile("appsettings.json")
  .Build();
-// pour une base des donn�es Sql Server
-var connectionString =
-configuration.GetConnectionString("LocalSqlServerConnection");
+
+// Pour une base des donn�es Sql Server
+var connectionString = configuration.GetConnectionString("LocalSqlServerConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(connectionString);
@@ -23,9 +23,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Ajouter la prise en charge de Razor Pages
 builder.Services.AddRazorPages();
+var app = builder.Build();
 
-
-
+// Configurez la base de données et ajoutez des données de test
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate(); // Appliquer les migrations si nécessaire
+    dbContext.SeedData(); // Ajouter des données de test
+}
 
 
 // Configure the HTTP request pipeline.
