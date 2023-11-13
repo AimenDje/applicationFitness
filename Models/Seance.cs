@@ -11,11 +11,8 @@ namespace SuiviFitness.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDSeance { get; set; }
         public int IDUtilisateur { get; set; }
-        public DateTime DateHeure { get; set; }
-        public string Description { get; set; }
-
-        // Relation avec l'utilisateur
-        [ForeignKey("IDUtilisateur")]
+        public DateTime? DateHeure { get; set; }
+        public string? Description { get; set; }
         public Utilisateur Utilisateur { get; set; }
 
 
