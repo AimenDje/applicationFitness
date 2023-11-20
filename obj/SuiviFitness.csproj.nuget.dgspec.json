@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj": {}
+    "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\SuiviFitness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj": {
+    "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\SuiviFitness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj",
+        "projectUniqueName": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\SuiviFitness.csproj",
         "projectName": "SuiviFitness",
-        "projectPath": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\SuiviFitness.csproj",
-        "packagesPath": "C:\\Users\\djeai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\obj\\",
+        "projectPath": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\SuiviFitness.csproj",
+        "packagesPath": "C:\\Users\\raoui\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\djeai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\raoui\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,13 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.3.0, )"
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -62,9 +66,19 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
@@ -86,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

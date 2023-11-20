@@ -36,11 +36,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.cshtml">
+                            <a class="nav-link" href="">
                                 <img src="~/images/envelope.png" alt="" />
                                 <span>energym@gmail.com</span>
                             </a>
                         </li>
+                        
+                        
+                        
                     </ul>
                 </div>
             </nav>
@@ -70,19 +73,17 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" asp-controller="Nutrition" asp-action="Index"> Nutrition</a>
                                 </li>
+                                <li>
+                                    @Html.Partial("_LoginPartial")
+                                </li>
                              
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">Se connecter</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">S'inscrire</a>
-                                </li>
-
+                               
+                                
 
                             </ul>
-                            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                            <!--<form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                            </form>
+                            </form>-->
                         </div>
                     </div>
                 </nav>
@@ -103,7 +104,7 @@
                     Nos informations
                 </h4>
                 <form action="">
-                    <input type="text" placeholder="Enteez votre email">
+                    <input type="text" placeholder="Entrez votre email">
                     <div class="d-flex justify-content-end">
                         <button>
                             Soumettre
@@ -114,18 +115,18 @@
         </div>
         <div class="container">
             <div class="row">
+                <p>
+                    Avec nous, Ecogym, la clé d'une vie épanouissante réside dans la santé, la forme physique et le bien-être.
+                    Notre mission est de vous aider à atteindre vos objectifs de fitness et à vivre une vie plus saine.
+                </p>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <h6>
+                    Menus
+                </h6>
                 <div class="col-md-3">
                     <h6>
                         Apropos d'Energym
-                    </h6>
-                    <p>
-                        Avec nous, Ecogym, la clé d'une vie épanouissante réside dans la santé, la forme physique et le bien-être. 
-                        Notre mission est de vous aider à atteindre vos objectifs de fitness et à vivre une vie plus saine.
-                    </p>
-                </div>
-                <div class="col-md-2 offset-md-1">
-                    <h6>
-                        Menus
                     </h6>
                     <ul>
                         <li class="">
@@ -144,12 +145,9 @@
                             <a class="" href="service.html">Nutrition</a>
                         </li>
                         
-                        <li class="">
-                            <a class="" href="#">Se connecter</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="#">S'inscrire</a>
-                        </li>
+                                               
+                        
+                   
                     </ul>
                 </div>
                 <div class="col-md-3">

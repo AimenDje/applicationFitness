@@ -1,247 +1,419 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SuiviFitness.bundle.scp.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SuiviFitness.bundle.scp.css",
       "PackagePath": "staticwebassets\\SuiviFitness.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\call-white.png",
+      "PackagePath": "staticwebassets\\images\\call-white.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\call.png",
+      "PackagePath": "staticwebassets\\images\\call.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\client.png",
+      "PackagePath": "staticwebassets\\images\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\images\\envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\facebook-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\facebook-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\left-angle.png",
+      "PackagePath": "staticwebassets\\images\\left-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\left-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\left-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\link.png",
+      "PackagePath": "staticwebassets\\images\\link.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\location-white.png",
+      "PackagePath": "staticwebassets\\images\\location-white.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\location.png",
+      "PackagePath": "staticwebassets\\images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\mail-white.png",
+      "PackagePath": "staticwebassets\\images\\mail-white.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\result-img.jpg",
+      "PackagePath": "staticwebassets\\images\\result-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\right-angle.png",
+      "PackagePath": "staticwebassets\\images\\right-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\right-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\right-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-1.jpg",
+      "PackagePath": "staticwebassets\\images\\s-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-2.jpg",
+      "PackagePath": "staticwebassets\\images\\s-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-3.jpg",
+      "PackagePath": "staticwebassets\\images\\s-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-4.jpg",
+      "PackagePath": "staticwebassets\\images\\s-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-5.jpg",
+      "PackagePath": "staticwebassets\\images\\s-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\s-6.jpg",
+      "PackagePath": "staticwebassets\\images\\s-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\search-icon-black.png",
+      "PackagePath": "staticwebassets\\images\\search-icon-black.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\syringe-white.png",
+      "PackagePath": "staticwebassets\\images\\syringe-white.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\twitter-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\twitter-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\u-1.png",
+      "PackagePath": "staticwebassets\\images\\u-1.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\u-2.png",
+      "PackagePath": "staticwebassets\\images\\u-2.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\u-3.png",
+      "PackagePath": "staticwebassets\\images\\u-3.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\images\\u-4.png",
+      "PackagePath": "staticwebassets\\images\\u-4.png"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\raoui\\Desktop\\SchoolRzmt\\Web3\\applicationfitness\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
