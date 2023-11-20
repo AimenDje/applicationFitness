@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuiviFitness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02c3254212b74e334ccbd74b5981cdd4abf96402")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7fa3d69e2e12bef9db5af6e8528969328e83b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuiviFitness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuiviFitness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
