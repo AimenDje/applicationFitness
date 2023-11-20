@@ -36,11 +36,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.cshtml">
+                            <a class="nav-link" href="">
                                 <img src="~/images/envelope.png" alt="" />
                                 <span>energym@gmail.com</span>
                             </a>
                         </li>
+                        
+                        
+                        
                     </ul>
                 </div>
             </nav>
@@ -70,13 +73,13 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" asp-controller="Nutrition" asp-action="Index"> Nutrition</a>
                                 </li>
+                                <li>
+                                    @Html.Partial("_LoginPartial")
+                                </li>
                              
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">Se connecter</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">S'inscrire</a>
-                                </li>
+                               
+                                
+                               
 
 
                             </ul>
@@ -103,7 +106,7 @@
                     Nos informations
                 </h4>
                 <form action="">
-                    <input type="text" placeholder="Enteez votre email">
+                    <input type="text" placeholder="Entrez votre email">
                     <div class="d-flex justify-content-end">
                         <button>
                             Soumettre
@@ -143,13 +146,14 @@
                         <li class="">
                             <a class="" href="service.html">Nutrition</a>
                         </li>
+                        <li class="">
+                            <a class="" asp-area="Identity" asp-page="/Account/Login">Connexion</a>
+                        </li>
+                        <li class="">
+                            <a class="" asp-area="Identity" asp-page="/Account/Register">Inscription</a>
+                        </li>                       
                         
-                        <li class="">
-                            <a class="" href="#">Se connecter</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="#">S'inscrire</a>
-                        </li>
+                   
                     </ul>
                 </div>
                 <div class="col-md-3">
