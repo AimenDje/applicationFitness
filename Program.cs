@@ -1,6 +1,11 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Configuration;
+using SendGrid.Extensions.DependencyInjection;
 using SuiviFitness.Models;
+using SuiviFitness.Services;
+using SuiviFitness.settings;
 
 var builder = WebApplication.CreateBuilder(args);
 //var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -23,10 +28,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
 
 // Ajouter la prise en charge de Razor Pages
 builder.Services.AddRazorPages();
+
+
+builder.Services.AddScoped<ISMSSenderService, SMSSenderService>();
 var app = builder.Build();
+
+
+
+
 
 // Configurez la base de données et ajoutez des données de test
 using (var scope = app.Services.CreateScope())
