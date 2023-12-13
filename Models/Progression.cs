@@ -9,13 +9,10 @@ namespace SuiviFitness.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDProgression { get; set; }
-        public int IDUtilisateur { get; set; }
         public DateTime Date { get; set; }
         public string TypeProgression { get; set; }
         public string DetailsProgression { get; set; }
 
-        // Relation avec l'utilisateur
-        [ForeignKey("IDUtilisateur")]
-        public Utilisateur Utilisateur { get; set; }
+        
     }
 }

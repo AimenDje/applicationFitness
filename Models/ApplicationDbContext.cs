@@ -1,54 +1,38 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using System.Reflection.Metadata;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SuiviFitness.Models
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>
-       options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
         }
-        // DbSet pour vos entités
+        
+        public DbSet<Exercice> Exercices { get; set; }
 
-        public DbSet<Utilisateur> listeUtilisateur { get; set; }
-        public DbSet<Seance> seances { get; set; }
-        public DbSet<Exercice> exercices { get; set; }
-        public DbSet<DetailSeance> details{ get; set; }
-        public DbSet<DonneeNutritionnelle> donneesNutritionnelles { get; set; }
-        public DbSet<Progression> progressions { get; set; }
-        public DbSet<RecommendationFitness> recommendations { get; set; }
+        public DbSet<Objectif> Objectif { get; set; }
 
-        public void SeedData() 
+        public void SeedData()
         {
-            // Obtenez la liste d'utilisateurs avec des données préremplies
-            var sampleUtilisteurs = TestDataFitness.GetSampleUtilisateurs();
-
-            // Créez un HashSet des nom, prénom, adresse email, mot de passe et
-            // le type d'utilisteur d'utilisateurs existants pour une recherche plus rapide
-            var existingUtilisteurNon = new HashSet<string>(listeUtilisateur.Select(u => u.nom));
-            var existingUtilisteurPrenom = new HashSet<string>(listeUtilisateur.Select(u => u.prenom));
-            var existingUtilisteurEmail = new HashSet<string>(listeUtilisateur.Select(u => u.adresseEmail));
-            var existingUtilisteurMdp = new HashSet<string>(listeUtilisateur.Select(u => u.motDePasseHash));
-            var existingUtilisteurType = new HashSet<string>(listeUtilisateur.Select(u => u.typeUtilisateur));
-
-            //Parcoure chaque attribues de l'utilisateur et ajoute sa valeur s'il n'existe pas deja dans la base de donnée
-            foreach (var user in sampleUtilisteurs)
+            // Obtenez la liste de blogs avec des données préremplies
+            var SampleObjectifs = TestDataFitness.getObjectifs();
+            // Créez un HashSet des URLs de blogs existants pour une recherche plus rapide
+            var existingObjectifName = new HashSet<string>(Objectif.Select(o => o.Nom));
+            foreach (var objectif in SampleObjectifs)
             {
-                if (!existingUtilisteurNon.Contains(user.nom)) { listeUtilisateur.Add(user); }
-                if (!existingUtilisteurPrenom.Contains(user.prenom)) { listeUtilisateur.Add(user); }
-                if (!existingUtilisteurEmail.Contains(user.adresseEmail)) { listeUtilisateur.Add(user); }
-                if (!existingUtilisteurMdp.Contains(user.motDePasseHash)) { listeUtilisateur.Add(user); }
-                if (!existingUtilisteurType.Contains(user.typeUtilisateur)) { listeUtilisateur.Add(user); }
+                if (!existingObjectifName.Contains(objectif.Nom))
+                {
+                    // Ajoutez le blog au contexte s'il n'existe pas déjà
+                    Objectif.Add(objectif);
+                }
             }
             // Enregistrez les changements une seule fois après avoir ajouté tous les blogs
             SaveChanges();
-
         }
-
     }
+
+
 }
