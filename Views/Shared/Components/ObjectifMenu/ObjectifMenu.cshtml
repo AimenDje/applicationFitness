@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SuiviFitness.Models.Objectif>
+
+@if (Model != null)
+{
+
+    <li class="dropdown mega-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Objectifs <span class="caret"></span></a>
+        <ul class='dropdown-menu mega-dropdown-menu'>
+            @{
+                int nbLigne = 3;
+                int i =0 ;
+
+                foreach (var item in Model)
+                {
+                    String nomObj = item.Nom;
+                    int idObj = item.ObjectifId+ i + 1;
+
+                    if (i % nbLigne == 0)
+                    {
+                        if (i != 0)
+                        {
+                            @:</ul></li>
+                        }
+                        @:<li><ul class='list-unstyled'>
+                    }
+
+                    <li><a  href="~/Exercices/Search2/@idObj">@nomObj</a></li>
+
+                    if (i == Model.Count() - 1)
+                    {
+                        @:</ul></li>
+                    }
+
+                    i++;
+                }
+            }
+        </ul>
+    </li>
+}

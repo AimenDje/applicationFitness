@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SuiviFitness.Models.Exercice>
+@{
+    ViewBag.Title = "Home Page";
+}
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<div class="row" style="margin-top:15px;">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-xs-1 " style="height:380px;">
+            <div class="thumbnail text-center" style="padding-left:15px;padding-bottom:15px;">
+                <img src="/@Html.DisplayFor(model => item.Photo)" style="height:200px;width:200px;" />
+                <h5><b>Nom : </b>@Html.DisplayFor(model => item.NomExercice)</h5>
+                <h5> <b>Description : </b>@Html.DisplayFor(model => item.Description)</h5>
+                <p><b>QuObjectif: </b><span style="color:green;">@Html.DisplayFor(model => item.Objectif.Nom)</span></p>
+                <a href="~/Exercices/Details/@item.IDExercice" class="btn btn-default">Plus de details</a>
+            </div>
+        </div>
+    }
+</div>
+
+
