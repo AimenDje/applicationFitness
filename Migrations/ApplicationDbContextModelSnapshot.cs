@@ -327,7 +327,7 @@ namespace SuiviFitness.Migrations
             modelBuilder.Entity("SuiviFitness.Models.Exercice", b =>
                 {
                     b.HasOne("SuiviFitness.Models.Objectif", "Objectif")
-                        .WithMany("exercices")
+                        .WithMany("Exercices")
                         .HasForeignKey("ObjectifId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -337,7 +337,7 @@ namespace SuiviFitness.Migrations
 
             modelBuilder.Entity("SuiviFitness.Models.Objectif", b =>
                 {
-                    b.Navigation("exercices");
+                    b.Navigation("Exercices");
                 });
 #pragma warning restore 612, 618
         }
