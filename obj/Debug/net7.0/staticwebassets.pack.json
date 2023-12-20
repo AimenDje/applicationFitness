@@ -5,12 +5,184 @@
       "PackagePath": "staticwebassets\\SuiviFitness.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
       "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
       "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\call-white.png",
+      "PackagePath": "staticwebassets\\images\\call-white.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\call.png",
+      "PackagePath": "staticwebassets\\images\\call.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\client.png",
+      "PackagePath": "staticwebassets\\images\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\images\\envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\facebook-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\facebook-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\left-angle.png",
+      "PackagePath": "staticwebassets\\images\\left-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\left-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\left-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\link.png",
+      "PackagePath": "staticwebassets\\images\\link.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\location-white.png",
+      "PackagePath": "staticwebassets\\images\\location-white.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\location.png",
+      "PackagePath": "staticwebassets\\images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\mail-white.png",
+      "PackagePath": "staticwebassets\\images\\mail-white.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\result-img.jpg",
+      "PackagePath": "staticwebassets\\images\\result-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\right-angle.png",
+      "PackagePath": "staticwebassets\\images\\right-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\right-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\right-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-1.jpg",
+      "PackagePath": "staticwebassets\\images\\s-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-2.jpg",
+      "PackagePath": "staticwebassets\\images\\s-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-3.jpg",
+      "PackagePath": "staticwebassets\\images\\s-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-4.jpg",
+      "PackagePath": "staticwebassets\\images\\s-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-5.jpg",
+      "PackagePath": "staticwebassets\\images\\s-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\s-6.jpg",
+      "PackagePath": "staticwebassets\\images\\s-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\search-icon-black.png",
+      "PackagePath": "staticwebassets\\images\\search-icon-black.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\syringe-white.png",
+      "PackagePath": "staticwebassets\\images\\syringe-white.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\twitter-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\twitter-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\u-1.png",
+      "PackagePath": "staticwebassets\\images\\u-1.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\u-2.png",
+      "PackagePath": "staticwebassets\\images\\u-2.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\u-3.png",
+      "PackagePath": "staticwebassets\\images\\u-3.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\images\\u-4.png",
+      "PackagePath": "staticwebassets\\images\\u-4.png"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
       "Id": "C:\\Users\\djeai\\Desktop\\SuiviFitness\\wwwroot\\js\\site.js",

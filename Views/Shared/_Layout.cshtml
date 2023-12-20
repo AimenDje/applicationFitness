@@ -7,28 +7,86 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SuiviFitness.styles.css" asp-append-version="true" />
+    <!-- Basic -->
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SuiviFitness</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    
+                    <img src="~/images/logo.png" alt="" />
+                    <span>
+                        Energym
+                    </span>
+                </a>
+                <div class="contact_nav" id="">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" href="service.cshtml">
+                                <img src="~/images/location.png" alt="" />
+                                <span>Localisation</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" href="service.cshtml">
+                                <img src="~/images/call.png" alt="" />
+                                <span>(514) 456-7845</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.cshtml">
+                                <img src="~/images/envelope.png" alt="" />
+                                <span>energym@gmail.com</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="custom_nav2">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex  flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item ">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index"> Accueil</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" asp-controller="Home" asp-action="about"> À propos</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link"  asp-controller="Entrainement" asp-action="Index"> Entrainement</a>
+                                </li>
+                           
+
+                                <li class="nav-item ">
+                                    <a class="nav-link" asp-controller="Nutrition" asp-action="Index"> Nutrition</a>
+                                </li>
+                             
+                                <li class="nav-item ">
+                                    @Html.Partial("_LoginPartial")
+                                </li>
+                             
+
+
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
+        </div>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -36,11 +94,177 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <section class="info_section layout_padding2-top">
         <div class="container">
-            &copy; 2023 - SuiviFitness - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="info_form">
+                <h4>
+                    Nos informations
+                </h4>
+                <form action="">
+                    <input type="text" placeholder="Enteez votre email">
+                    <div class="d-flex justify-content-end">
+                        <button>
+                            Soumettre
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>
+                        Apropos d'Energym
+                    </h6>
+                    <p>
+                        Avec nous, Ecogym, la clé d'une vie épanouissante réside dans la santé, la forme physique et le bien-être. 
+                        Notre mission est de vous aider à atteindre vos objectifs de fitness et à vivre une vie plus saine.
+                    </p>
+                </div>
+                <div class="col-md-2 offset-md-1">
+                    <h6>
+                        Menus
+                    </h6>
+                    <ul>
+                        <li class="">
+                            <a class="" asp-controller="Home" asp-action="Index"> Accueil</a>
+                        </li>
+                        <li class="">
+                            <a class="" asp-controller="Home" asp-action="about"> À propos</a>
+                        </li>
+                        <li class="">
+                            <a class="" asp-controller="Home" asp-action="contact"> Contact</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="about.html">Entrainement </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="service.html">Nutrition</a>
+                        </li>
+                        
+                        <li class="">
+                            <a class="" href="#">Se connecter</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">S'inscrire</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Useful Links
+                    </h6>
+                    <ul>
+                        <li>
+                            <a href="">
+                                Adipiscing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Elit, sed
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                do Eiusmod
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Tempor
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                incididunt
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Contactez-nous
+                    </h6>
+                    <div class="info_link-box">
+                        <a href="">
+                            <img src="~/images/location-white.png" alt="">
+                            <span> 6400 16e Avenue, Montréal QC H1X 2S9, Canada</span>
+                        </a>
+                        <a href="">
+                            <img src="~/images/call-white.png" alt="">
+                            <span>(514) 456-7845</span>
+                        </a>
+                        <a href="">
+                            <img src="images/mail-white.png" alt="">
+                            <span> energym@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="info_social">
+                        <div>
+                            <a href="">
+                                <img src="~/images/facebook-logo-button.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="~/images/twitter-logo-button.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="~/images/linkedin.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="~/images/instagram.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end info section -->
+    <!-- footer section -->
+    <section class="container-fluid footer_section ">
+        <p>
+            &copy; 2023 Tous les droits résevrés. Réalisé par Aimen Djemaoune, Taha Mohamed Raoui et Serge Milongo
+        </p>
+    </section>
+    <!-- footer section -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var navLinks = document.querySelectorAll(".nav-link");
+
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    // Supprimez la classe "active" de tous les éléments du menu
+                    navLinks.forEach(function (navLink) {
+                        navLink.parentElement.classList.remove("active");
+                    });
+
+                    // Ajoutez la classe "active" à l'élément du menu cliqué
+                    link.parentElement.classList.add("active");
+                });
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").classList.toggle("menu_width");
+            document
+                .querySelector(".custom_menu-btn")
+                .classList.toggle("menu_btn-style");
+        }
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

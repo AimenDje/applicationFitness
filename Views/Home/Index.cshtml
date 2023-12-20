@@ -1,8 +1,138 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Acceuil";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Energym</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+          rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+ 
+</head>
+
+<body>
+    
+    <div class="hero_area">
+        
+        <!-- slider section -->
+        <section class=" slider_section position-relative">
+            <div class="slider_container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                                        <div class="detail-box">
+                                            <h2>
+                                                Développe ton corps
+                                            </h2>
+                                            <h1>
+                                                Entrainement
+                                            </h1>
+                                            <p>
+                                                Avec un plan d'entraînement personnalisé, que ce soit pour perdre du poids, 
+                                                gagner en muscle, améliorer votre endurance ou simplement adopter un mode de vie plus actif, 
+                                                Vous trouverez un tas d'exercice selon vos exigences
+                                            </p>
+                                            <div class="btn-box">
+                                                <a class="btn-1" id="login" asp-area="Identity" asp-page="/Account/Login">Se connecter</a>
+                                               
+                                                <a class="btn-2" id="register" asp-area="Identity" asp-page="/Account/Register">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                                        <div class="detail-box">
+                                            <h2>
+                                                Améliore ta nutrition
+                                            </h2>
+                                            <h1>
+                                                Nutrition
+                                            </h1>
+                                            <p>
+                                                Le rôle de la nutrition dans l'atteinte des objectifs de remise en forme et de performance sportive est indéniable,
+                                                car une alimentation appropriée peut faire la différence entre des résultats moyens et des résultats exceptionnels.
+                                                
+                                            </p>
+                                            <div class="btn-box">
+                                                <a class="btn-1" id="login" asp-area="Identity" asp-page="/Account/Login">Se connecter</a>
+
+                                                <a class="btn-2" id="register" asp-area="Identity" asp-page="/Account/Register">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                                        <div class="detail-box">
+                                            <h2>
+                                                Pregresse selon ton rythme
+                                            </h2>
+                                            <h1>
+                                                Suivi 
+                                            </h1>
+                                            <p>
+                                                Ecogym t'offre une panoplie de méthodes qui te permettent de progresser selon ton rythme et ainsi 
+                                                qu'un suivi de fitness selon vos objectifs, et vos informations tels que le poids l'âge ou encore la taille.
+                                            </p>
+                                            <div class="btn-box">
+                                                <a class="btn-1" id="login" asp-area="Identity" asp-page="/Account/Login">Se connecter</a>
+
+                                                <a class="btn-2" id="register" asp-area="Identity" asp-page="/Account/Register">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+</body>
+
+</html>
+
