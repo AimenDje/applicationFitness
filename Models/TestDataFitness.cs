@@ -43,6 +43,8 @@
                 Objectif = o1
             };
             o1.Exercices.Add(exercice3Maintien);
+
+
             return new Objectif?[] { o1, o2, o3 };
 
         }
