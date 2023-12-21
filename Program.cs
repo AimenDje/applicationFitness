@@ -4,9 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using NuGet.Configuration;
 //using SendGrid.Extensions.DependencyInjection;
 using SuiviFitness.Models;
+using SuiviFitness.Services;
+using SuiviFitness.Settings;
 //using SuiviFitness.settings;
 
 var builder = WebApplication.CreateBuilder(args);
+//var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 //var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 // Add services to the container.
@@ -27,13 +30,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
-//builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
+builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
+
+builder.Services.AddAuthentication().AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientId");
+    googleOptions.ClientSecret = builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientSecret");
+});
 
 // Ajouter la prise en charge de Razor Pages
 builder.Services.AddRazorPages();
 
 
-//builder.Services.AddScoped<ISMSSenderService, SMSSenderService>();
+builder.Services.AddScoped<ISMSSenderService, SMSSenderService>();
 var app = builder.Build();
 
 
