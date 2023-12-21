@@ -21,8 +21,7 @@
             {
 
                 NomExercice = "Échauffement (5-10 minutes) : ",
-                Description = "Debout, les pieds joints, sautez en étendant les bras\r\n" +
-                " et les jambes pour former une étoile. Répétez pendant 1 minute. Rotation des bras et des jambes",
+                Description = "Sautez en étendant les bras. Pendant 1 minute. Rotation des bras et des jambes",
                 Photo = "images/imgExercice/jumping-jack.gif",
                 Objectif = o1
             };
@@ -32,8 +31,7 @@
             Exercice exercice2PertePoids = new Exercice
             {
                 NomExercice = "Course à pied ou Jogging : ",
-                Description = "Une activité cardiovasculaire classique\r\n" +
-                " qui brûle des calories et améliore la santé cardiovasculaire.",
+                Description = "Une activité cardiovasculaire qui brûle des calories et améliore la santé cardiovasculaire.",
                 Photo = "images/imgExercice/jogging.gif",
                 Objectif = o1
             };
@@ -42,8 +40,7 @@
             Exercice exercice3PertePoids = new Exercice
             {
                 NomExercice = "Entraînement cardiovasculaire à haute intensité (HIIT) : ",
-                Description = "Alternez des périodes courtes d'activité de 30 sec intense (sprint, saut à la corde)\r\n" +
-                " avec des périodes de repos actif ou de faible intensité.",
+                Description = "Alternez des périodes courtes d'activité de 30 sec intense (sprint, saut à la corde)",
                 Photo = "images/imgExercice/saut-corde.gif",
                 Objectif = o1
             };
@@ -52,8 +49,7 @@
             Exercice exercice4PertePoids = new Exercice
             {
                 NomExercice = "Planche avec élévation de jambe : ",
-                Description = "En position de planche , soulevez une jambe à la fois vers le plafond.\r\n" +
-                " Alternez de chaque côté, en faisant 3 séries de 12 élévations.",
+                Description = " Alternez chauqe jambre en faisant 3 séries de 12 élévations.",
                 Photo = "images/imgExercice/planche-lever-jambe.gif",
                 Objectif = o1
             };
@@ -68,9 +64,7 @@
             Exercice exercice1Gain = new Exercice
             {
                 NomExercice = "Extension des Mollets à la Presse : ",
-                Description = "Réalisez une flexion avec les muscles des mollets\r\n" +
-                " afin de développer la charge. Poussez aussi loin que possible!\r\n" +
-                " 3 Series de 12 répétitions avec 30 seconde de pause.",
+                Description = " 3 Series de 12 répétitions avec 30 seconde de pause.",
                 Photo = "images/imgExercice/extensions-mollets.gif",
                 Objectif = o2
             };
@@ -80,7 +74,7 @@
             Exercice exercice2Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 2",
-                Description = "Description of Exercise Gain 2",
+                Description = "Effectuez 3 séries de 16 répétitions.",
                 Photo = "images/imgExercice/squat-low-barre.gif",
                 Objectif = o2
             };
@@ -89,7 +83,7 @@
             Exercice exercice3Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 3",
-                Description = "Description of Exercise Gain 3",
+                Description = "Effectuez 3 séries de 20 répétitions",
                 Photo = "images/imgExercice/russian-twist-avec-haltere.gif",
                 Objectif = o2
             };
@@ -99,7 +93,7 @@
             Exercice exercice4Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 4",
-                Description = "Description of Exercise Gain 4",
+                Description = "Effectuez 3 séries de 18 répétitions",
                 Photo = "images/imgExercice/biceps-curl-haltere.gif",
                 Objectif = o2
             };
@@ -109,7 +103,7 @@
             Exercice exercice5Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 5",
-                Description = "Description of Exercise Gain 5",
+                Description = "Effectuez 3 séries de 14 répétitions",
                 Photo = "images/imgExercice/developpe-epaule-halteres.gif",
                 Objectif = o2
             };
@@ -120,7 +114,7 @@
            Exercice exercice6Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 6",
-                Description = "Description of Exercise Gain 6",
+                Description = "Effectuez 3 séries de 14 répétitions",
                 Photo = "images/imgExercice/developper-coucher.gif",
                 Objectif = o2
             };
@@ -129,7 +123,7 @@
             Exercice exercice7Gain = new Exercice
             {
                 NomExercice = "Exercise Gain 7",
-                Description = "Description of Exercise Gain 7",
+                Description = "Effectuez 3 séries de 16 répétitions",
                 Photo = "images/imgExercice/tirage-horizontal-prise-large.gif",
                 Objectif = o2
             };
