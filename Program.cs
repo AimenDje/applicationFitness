@@ -7,6 +7,8 @@ using SuiviFitness.Models;
 using SuiviFitness.Services;
 using SuiviFitness.Settings;
 //using SuiviFitness.settings;
+using SignalRChat.Hubs;
+
 
 var builder = WebApplication.CreateBuilder(args);
 //var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -14,6 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 
 // Configuration de la chaine de connexion à partir de appsettings.json
@@ -80,4 +83,6 @@ app.MapControllerRoute(
 
 // Mappez les pages Razor
 app.MapRazorPages();
+app.MapHub<ChatHub>("/chatHub");
+
 app.Run();
