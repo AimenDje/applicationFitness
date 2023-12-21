@@ -12,7 +12,7 @@ using SuiviFitness.Models;
 namespace SuiviFitness.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231220180826_InitialCreate")]
+    [Migration("20231221060537_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
