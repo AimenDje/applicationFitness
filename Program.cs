@@ -34,11 +34,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
-
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
-    googleOptions.ClientId = builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientId");
-    googleOptions.ClientSecret = builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientSecret");
+    googleOptions.ClientId =
+    builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientId");
+    googleOptions.ClientSecret =
+    builder.Configuration.GetSection("GoogleAuthSettings").GetValue<string>("ClientSecret");
 });
 
 // Ajouter la prise en charge de Razor Pages
