@@ -9,10 +9,8 @@ namespace SuiviFitness.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDProgression { get; set; }
-        public DateTime Date { get; set; }
-        public string TypeProgression { get; set; }
-        public string DetailsProgression { get; set; }
+        public int PourcentageProgres { get; set; }
 
-        
+
     }
 }
