@@ -1,0 +1,34 @@
+﻿<!-- Views/Progression/Progres.cshtml -->
+@model SuiviFitness.Models.Progression
+
+<!-- Inclure jQuery dans votre vue si ce n'est pas déjà fait -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Ajouter du JavaScript pour gérer le clic du bouton -->
+
+<style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .form-container {
+        max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
+    }
+</style>
+
+<div class="center">
+    <h2>Progrès</h2>
+</div>
+
+<div class="center">
+    <div class="form-container">
+        <p>Progrès actuel : @Model.PourcentageProgres</p>
+
+        <form action="@Url.Action("Effectuer", "Progression")" method="post">
+            <input type="submit" value="Effectuer" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
