@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Details";
 }
-
 <h1>Details</h1>
 
 <div>
@@ -37,6 +36,12 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.IDExercice">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a id="effectuerLink" asp-controller = "Exercices" asp-action="Effectuer" asp-route-id="@Model.ObjectifId"  onclick="afficherAlerte()">Effectuer</a>
 </div>
+
+<script>
+    function afficherAlerte() {
+        // Vous pouvez personnaliser le message d'alerte ci-dessous
+        alert('Bravo!, vous avez effectué Cet exercice, Votre progression augmentera. Ne lâcher pas!');
+    }
+</script>
